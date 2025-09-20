@@ -1,6 +1,8 @@
 # Camera Follow Script for Unity
 
-This is a simple, customizable script for Unity 2D that will make a Camera follow an assigned object. This is designed for 2D Player Movement, but it can be used for anything else.
+This is a simple, customizable script for Unity 2D that will make a Camera follow an assigned object. This is designed for 2D Player Movement, but it can be used for any other GameObject, too.
+
+---
 
 ### How to use it
 1. Attach "Camera.cs" to the Camera object.
@@ -8,5 +10,6 @@ This is a simple, customizable script for Unity 2D that will make a Camera follo
 3. Adjust the speed if needed, and enjoy!
 
 ### Key Features
-- The Camera will **stop following** when the Y axis = 0, but this can be adjusted.
-- It uses the **Slerp()** function for smoothness.
+- When the camera's Y position is 0, it will **stop following the object** - regardless of how further down it goes.
+- Utilizes the **Slerp()** method for smoother, elastic movement.
+- **Designed for 2D Platformer games!**
